@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  background-color: #141414;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+img {
+  border-radius: 90%;
+  margin-left: 183px;
+  height: auto;
+  width: 110px;
+}
+
+.imge {
+  display: flex;
+  justify-content: center;
+}
+.page{
+  justify-items: center;
+  justify-content: flex-start;
+  margin: auto;
+  height: px;
+  width: 500px;
+  background-color: #1f1f1f;
+  border-radius: 1.75%;
+  margin-top: 85px;
+  margin-bottom: 40px;
+}
+.middle {
+  justify-items: center;
+  justify-content: flex-start;
+  margin: auto;
+  height: px;
+  width: 500px;
+  background-color: #1f1f1f;
+  border-radius: 1.75%;
+  margin-top: 85px;
+  margin-bottom: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  font-size: xx-large;
+  margin: 10px;
+}
+
+.discreption {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  color: hsl(75, 94%, 57%);
+  margin: 10px;
+}
+
+q {
+  display: flex;
+  justify-content: center;
+  color: #e4dede;
+  margin-top: 20px;
+}
+
+.button-style {
+  padding: 16px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  margin-inline: 25px;
+  width: 400px;
+  height: 63px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #333333;
+  color: #c8c8c8;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.7s;
+}
+
+.button-style:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: #141414;
+}
+
+.margin-bottom-button {
+  margin-bottom: 30px;
+}
+.button-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+@media (min-width: 300px) and (max-width:600px) {
+  .header {
+    font-size: 25px;
+    margin: px;
+  }
+  
+  .discreption {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  
+  img {
+    width: 100px;
+    margin-top:20px ;
+    height : 100px;
+    margin-bottom: -15px;
+    margin-left:85px;
+  }
+  q{
+    font-size: 11px;
+    font-weight: 20px;
+  }
+  .button-style {
+    border-radius: 20px;
+    font-weight :500;
+    margin-bottom: -30px;
+    width : 250px;
+    height : 50px;
+  }
+  .middle{
+    border-radius: 30px;
+    width: 88%;
+    height:570px;
+    margin-top: -20px;
+  }
+  .page{
+    height: 0px;
+  }
+
+  }
